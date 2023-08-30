@@ -91,8 +91,8 @@ body {
   justify-content: center;
 }
 
-.vh80 {
-  height: 80vh;
+.vh85 {
+  height: 85vh;
 }
 
 .padding-30 {
@@ -640,7 +640,7 @@ ul li {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 10px;
   }
 }
@@ -648,7 +648,7 @@ ul li {
   .classy-nav-container .classy-navbar .classynav ul li a {
     border-bottom: none;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -2289,7 +2289,7 @@ ul li {
 }
 @media only screen and (max-width: 767px) {
   .cta-content h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 .cta-content h6 {
