@@ -640,22 +640,22 @@ ul li {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
-    font-size: 16px;
+    font-size: 17px;
     padding: 0 10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
     border-bottom: none;
-    padding: 0 10px;
-    font-size: 16px;
+    padding: 0 8px;
+    font-size: 17px;
   }
 }
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
     border-bottom: none;
-    padding: 0 10px;
-    font-size: 14px;
+    padding: 0 8px;
+    font-size: 17px;
   }
 }
 .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a {
