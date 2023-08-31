@@ -49,6 +49,9 @@
 @import url(css/default-assets/slick.css);
 @import url(css/style.css);
 /* :: 1.0 Reboot CSS */
+
+  @import url('https://fonts.googleapis.com/css2?family=Train+One');
+
 * {
   margin: 0;
   padding: 0;
@@ -111,6 +114,19 @@ iframe {
   height: 887px;
 }
 
+
+a.logo-name {
+  font-family: 'Train One', cursive;
+  font-weight: 800;
+  font-size: 36px !important;
+  color: white !important;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6), 
+  0px 8px 13px rgba(0, 0, 0, 0.4),
+  0px 18px 23px rgba(0, 0, 0, 0.3);
+}
+
+
+/******/
 h1,
 h2,
 h3,
@@ -2842,16 +2858,3 @@ ul li {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-a.logo-name {
-  font-weight: 800;
-  font-size: 34px !important;
-  color: white !important;
-  /* text-shadow: 2px 4px 3px rgba(91, 208, 181, 0.8); */
-  /* text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1); */
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 
-  0px 8px 13px rgba(0, 0, 0, 0.1),
-  0px 18px 23px rgba(0, 0, 0, 0.1);
-}
