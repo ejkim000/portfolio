@@ -609,7 +609,7 @@ ul li {
 }
 @media only screen and (max-width: 767px) {
   .classy-nav-container {
-    padding: 0 15px;
+    padding: 10px;
   }
 }
 .classy-nav-container .classy-navbar {
@@ -623,7 +623,11 @@ ul li {
 }
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar {
-    height: 70px;
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
   }
 }
 .classy-nav-container .classy-navbar .bg-curve {
@@ -638,8 +642,12 @@ ul li {
 }
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .nav-brand {
-    max-width: 90px;
-    margin-right: 15px;
+    max-width: 120px;
+    margin-right: 10px;
+  }
+
+  a.logo-name {
+    font-size: 26px !important;
   }
 }
 .classy-nav-container .classy-navbar .classynav ul li a {
